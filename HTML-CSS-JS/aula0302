@@ -1,0 +1,29 @@
+
+grid-columns 
+
+-grid 
+quando voce coloca display: grid num elemento pai voce muda totalmente o comportamento dos filhos e tambem d pai em relação aos filhos 
+com ele é possivel definir colunas e linhas para organizar os elementos que estiverem dentro d grid
+
+    algumas propriedades podem ser usada desde q o elemento seja o grid, como o:
+    
+    - grid-template-columns: define o total de colunas e o tamanho de cada uma
+    - fr: é uma unidade fracionária que tera como objetivo distribuir o espaço restante entre os elementos d grid.
+    - gap: cria uma distancia entre os elementos d grid, tanto horizontal quanto vertical
+
+    agr para iniciar o uso d display grid, é importante entender que
+        o elemento que eu devo definir como display grid, é o elemento que 
+        envolve a parte que eu quero transformar em colunas
+        
+        a parte que quero transformar em colunas nesse projeto sao os itens,
+        porem nao tem nenhum elemento envolvendo ele aqui alem d body
+            mas o body tambem envolve o h1 e etc o que eu nao quero por isso
+        vou criar uma div envolvendo o item para que eu possa usa-la 
+        
+        a porcentagem da muito problema no distanciamento, por isso pra dividir em 2 partes iguais 
+        é bom usar o fr pq ele distribui o espaço que sobra em partes iguais entre os elementos
+        
+        display grid faz o espaçamento certinho, espaçamento unico pro item, nao invadem o bloco d outro
+        nao colidem
+        
+        nao se comportam mais como inline ou block, passam a se comportar como grid 
