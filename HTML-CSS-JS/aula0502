@@ -1,0 +1,21 @@
+Tipografia
+Existem diversas propriedades diferentes para ajustarmos a tipografia do site. 
+Geralmente começam com font ou text.
+/*
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-indent: 4rem;
+  text-align: left;
+  text-shadow: 5px 5px 10px gray;
+  letter-spacing: 0.5rem;
+}
+  */
+
+no font family, se coloca mais de um pra se caso na maquina do usuario nao tiver baixado essa fonte se usa a proxima
+quase nunca se é usado o text shadow, apenas em casos muito especificos
